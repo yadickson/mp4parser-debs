@@ -1,0 +1,6 @@
+
+s/aspectj/org.aspectj/ aspectjrt jar s/.*/debian/ * *
+s/aspectj/org.aspectj/ aspectjtools jar s/.*/debian/ * *
+s/aspectj/org.aspectj/ aspectjweaver jar s/.*/debian/ * *
+junit junit jar s/4\..*/4.x/ * *
+org.codehaus.mojo aspectj-maven-plugin * s/.*/LATEST/ * *

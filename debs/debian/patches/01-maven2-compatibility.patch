@@ -1,0 +1,17 @@
+Description: Remove the prerequisites on Maven 3
+Author: Emmanuel Bourg <ebourg@apache.org>
+Forwarded: not-needed
+diff --git a/pom.xml b/pom.xml
+index 1d080c9..6863889 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -16,9 +16,6 @@
+         <module>isoparser</module>
+         <module>examples</module>
+     </modules>
+-    <prerequisites>
+-        <maven>3.0</maven>
+-    </prerequisites>
+     <profiles>
+         <profile>
+             <id>android</id>

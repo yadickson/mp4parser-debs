@@ -1,0 +1,5 @@
+mp4parser (1.0.4.2-1) unstable; urgency=medium
+
+  * Initial release (Closes: #712972)
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Mon, 03 Nov 2014 21:08:57 +0100

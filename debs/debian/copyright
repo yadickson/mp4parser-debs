@@ -1,0 +1,42 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: MP4 Parser Project
+Upstream-Contact: Sebastian Annies
+Source: http://code.google.com/p/mp4parser/
+
+Files: *
+Copyright: 2008, CoreMedia AG
+           2009-2012, castLabs GmbH
+           2011-2012, Sebastian Annies
+License: Apache-2.0
+
+Files: isoparser/src/main/java/com/googlecode/mp4parser/h264/*
+Copyright: 2011, Stanislav Vitvitskiy
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this
+ software and associated documentation files (the "Software"), to deal in the Software
+ without restriction, including without limitation the rights to use, copy, modify,
+ merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to the following
+ conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+ PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+ FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+ OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: isoparser/src/main/java/com/coremedia/iso/Hex.java
+Copyright: 2003-2011, The Apache Software Foundation
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2014, Emmanuel Bourg <ebourg@apache.org>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems, the full text of the Apache-2.0 license
+ can be found in the file '/usr/share/common-licenses/Apache-2.0'
