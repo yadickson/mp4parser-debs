@@ -2,5 +2,5 @@
 s/aspectj/org.aspectj/ aspectjrt jar s/.*/debian/ * *
 s/aspectj/org.aspectj/ aspectjtools jar s/.*/debian/ * *
 s/aspectj/org.aspectj/ aspectjweaver jar s/.*/debian/ * *
-junit junit jar s/4\..*/4.x/ * *
-org.codehaus.mojo aspectj-maven-plugin * s/.*/LATEST/ * *
+com.googlecode.mp4parser isoparser jar s/1\..*/1.x/ * *
+com.googlecode.mp4parser mp4parser-project pom s/1\..*/1.x/ * *

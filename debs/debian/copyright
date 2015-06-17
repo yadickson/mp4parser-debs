@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: MP4 Parser Project
 Upstream-Contact: Sebastian Annies
-Source: http://code.google.com/p/mp4parser/
+Source: https://github.com/sannies/mp4parser/
 
 Files: *
 Copyright: 2008, CoreMedia AG

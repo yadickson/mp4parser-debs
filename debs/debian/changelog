@@ -1,3 +1,9 @@
+mp4parser (1.0.7.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Yadickson Soto <yadickson@gmail.com>  Wed, 17 Jun 2015 09:53:12 -0430
+
 mp4parser (1.0.4.2-1) unstable; urgency=medium
 
   * Initial release (Closes: #712972)

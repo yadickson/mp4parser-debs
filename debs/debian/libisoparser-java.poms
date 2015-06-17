@@ -25,7 +25,7 @@
 #   --site-xml=<location>: Optional, the location for site.xml if it needs to be installed.
 #     Empty by default. [mh_install]
 #
-pom.xml --has-package-version
-isoparser/pom.xml --has-package-version
+pom.xml --has-package-version --java-lib
+isoparser/pom.xml --has-package-version --java-lib
 examples/pom.xml --ignore
 androidtest/pom.xml --ignore

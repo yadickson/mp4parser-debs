@@ -1,8 +1,5 @@
-Description: Disable the Android logger since the android platform isn't available
-Author: Emmanuel Bourg <ebourg@apache.org>
-Forwarded: not-needed
---- a/isoparser/src/main/java/com/googlecode/mp4parser/util/AndroidLogger.java
-+++ b/isoparser/src/main/java/com/googlecode/mp4parser/util/AndroidLogger.java
+--- mp4parser-1.0.7.1/isoparser/src/main/java/com/googlecode/mp4parser/util/AndroidLogger.java	2015-05-20 15:51:08.000000000 -0430
++++ mp4parser-1.0.7.1~/isoparser/src/main/java/com/googlecode/mp4parser/util/AndroidLogger.java	2015-06-17 11:02:54.909849411 -0430
 @@ -1,6 +1,6 @@
  package com.googlecode.mp4parser.util;
  

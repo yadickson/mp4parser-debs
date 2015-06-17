@@ -1,1 +1,3 @@
 
+com.googlecode.mp4parser isoparser jar s/1\..*/1.x/ * *
+com.googlecode.mp4parser mp4parser-project pom s/1\..*/1.x/ * *

@@ -1,0 +1,23 @@
+--- mp4parser-1.0.7.1/pom.xml	2015-05-20 15:51:08.000000000 -0430
++++ mp4parser-1.0.7.1~/pom.xml	2015-06-17 11:02:54.901849411 -0430
+@@ -17,9 +17,6 @@
+         <!--<module>androidtest</module>-->
+         <module>examples</module>
+     </modules>
+-    <prerequisites>
+-        <maven>3.0</maven>
+-    </prerequisites>
+     <profiles>
+         <profile>
+             <id>android</id>
+@@ -61,6 +58,10 @@
+                 <plugin>
+                     <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-compiler-plugin</artifactId>
++                    <configuration>
++                        <source>1.5</source>
++                        <target>1.5</target>
++                    </configuration>
+                     <version>3.1</version>
+                 </plugin>
+                 <plugin>

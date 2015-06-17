@@ -5,8 +5,6 @@ include /usr/share/cdbs/1/class/maven.mk
 
 JAVA_HOME := /usr/lib/jvm/default-java
 
-DEB_MAVEN_ARGS := -DtoolsjarSystemPath=$(JAVA_HOME)/lib/tools.jar
-
 PKG  = $(word 2,$(shell dpkg-parsechangelog -ldebian/changelog | grep ^Source))
 VER ?= $(shell dpkg-parsechangelog -ldebian/changelog | perl -ne 'print $$1 if m{^Version:\s+(?:\d+:)?(\d.*)(?:\-\d+.*)};')
 
