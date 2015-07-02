@@ -11,6 +11,7 @@ Build Debian Package for Java MP4 Parser
 
 **Tested**
 
+- Debian wheezy
 - Debian jessie
 
 [Release page](https://github.com/yadickson/mp4parser-debs/releases)
