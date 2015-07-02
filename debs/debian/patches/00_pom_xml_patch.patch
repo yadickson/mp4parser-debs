@@ -1,5 +1,5 @@
 --- mp4parser-1.0.7.1/pom.xml	2015-05-20 15:51:08.000000000 -0430
-+++ mp4parser-1.0.7.1~/pom.xml	2015-06-17 11:02:54.901849411 -0430
++++ mp4parser-1.0.7.1~/pom.xml	2015-07-01 23:42:38.960052026 -0430
 @@ -17,9 +17,6 @@
          <!--<module>androidtest</module>-->
          <module>examples</module>

@@ -1,0 +1,23 @@
+--- mp4parser-1.0.7.1/isoparser/pom.xml	2015-05-20 15:51:08.000000000 -0430
++++ mp4parser-1.0.7.1~/isoparser/pom.xml	2015-07-01 23:19:37.632028221 -0430
+@@ -78,6 +78,20 @@
+                     </execution>
+                 </executions>
+             </plugin>
++            <plugin>
++                <groupId>org.apache.maven.plugins</groupId>
++                <artifactId>maven-jar-plugin</artifactId>
++                <configuration>
++                    <archive>
++                        <manifest>
++                            <addClasspath>true</addClasspath>
++                            <classpathLayoutType>custom</classpathLayoutType>
++                            <customClasspathLayout>/usr/share/java/$${artifact.artifactId}$${dashClassifier?}.$${artifact.extension}</customClasspathLayout>
++                        </manifest>
++                    </archive>
++                </configuration>
++                <version>2.4</version>
++            </plugin>
+         </plugins>
+     </build>
+ 

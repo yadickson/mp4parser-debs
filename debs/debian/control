@@ -6,13 +6,16 @@ Uploaders: Yadickson Soto <yadickson@gmail.com>
 Build-Depends: debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5)
 Build-Depends-Indep: libaspectj-java
 Standards-Version: 3.9.6
-Homepage: https://github.com/sannies/mp4parser
+Vcs-Git: git://anonscm.debian.org/pkg-java/mp4parser.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/mp4parser.git
+Homepage: http://code.google.com/p/mp4parser/
 
 Package: libisoparser-java
 Architecture: all
-Depends: ${maven:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${maven:Depends}
 Suggests: ${maven:OptionalDepends}
 Description: Generic parser and writer for ISO 14496 based files
  The isoparser API can read and write the MP4 file structure. It is a low
  level tool dealing with the so called boxes but it is as well as dealing
  with structure like tracks and movies.
+

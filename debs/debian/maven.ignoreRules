@@ -1,17 +1,10 @@
 
-com.googlecode.mp4parser androidtest apk * * *
-com.googlecode.mp4parser examples jar * * *
-s/aspectj/org.aspectj/ aspectjrt * * * *
-s/aspectj/org.aspectj/ aspectjtools * * * *
-s/aspectj/org.aspectj/ aspectjweaver * * * *
 com.google.android android * * * *
-com.google.code.maven-svn-wagon maven-svn-wagon * * * *
+com.googlecode.mp4parser androidtest * * * *
+com.googlecode.mp4parser examples * * * *
 commons-codec commons-codec * * * *
 commons-io commons-io * * * *
 junit junit * * * *
-org.apache.maven.plugins maven-deploy-plugin * * * *
 org.apache.maven.plugins maven-gpg-plugin * * * *
-org.apache.maven.plugins maven-release-plugin * * * *
-org.apache.maven.plugins maven-site-plugin * * * *
 org.apache.maven.plugins maven-source-plugin * * * *
 org.codehaus.mojo aspectj-maven-plugin * * * *
